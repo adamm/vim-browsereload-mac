@@ -1,8 +1,9 @@
 CURRENT_PATH=$(cd $(dirname $0) && pwd)
-cd $CURRENT_PATH/../
+cd $CURRENT_PATH
 echo "make docs ----------------------------------------------"
 make html
 cp -pr ./_build/html/* ../
+cd ../
 git pull --rebase
 git add ./
 echo "commit & push gh-pages ---------------------------------"
