@@ -6,7 +6,6 @@
 Welcome to browsereload-mac.vim's documentation!
 ================================================
 
-
 Contents:
 
 .. toctree::
