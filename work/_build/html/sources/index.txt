@@ -11,13 +11,6 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
 Description
 --------------------
 
@@ -40,6 +33,16 @@ Installation
  cp -pr ./browsereload-mac-vim/plugin/browsereload-mac.vim ~/.vim/plugin/ 
 
 see also install.sh
+
+Note
+--------------------
+
+if you want to reload Firefox. Please change your System Preferences on MacOSX as below.
+
+check "Enable access for assistive devices"::
+
+ System Preferences > Universal Access > "Enable access for assistive devices"
+
 
 Usage
 --------------------
@@ -113,3 +116,10 @@ write this setting in your .vimrc
  command! -bar SrStop silent SafariReloadStop
  command! -bar OrStop silent OperaReloadStop
  command! -bar ArStop silent AllBrowserReloadStop
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
