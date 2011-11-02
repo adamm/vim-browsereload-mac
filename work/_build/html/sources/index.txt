@@ -3,29 +3,30 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+================================================
 browsereload-mac.vim
 ================================================
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
 
-   .
+   Description
+   Required
 
 Description
---------------------
+=====================
 
 vim plugin to reflesh your browser. 
 this plugin works only MacOS.
 
 Required
---------------------
+=====================
 
 osascript(AppleScript command)
 
 Installation
---------------------
+=====================
 
 ::
 
@@ -37,7 +38,7 @@ Installation
 see also install.sh
 
 Note
---------------------
+=====================
 
 if you want to reload Firefox. Please change your System Preferences on MacOSX as below.
 
@@ -47,7 +48,7 @@ check "Enable access for assistive devices"::
 
 
 Usage
---------------------
+=====================
 
 browser reload::
 
@@ -75,7 +76,7 @@ stop auto reload::
 
 
 Settings
---------------------
+=====================
 
 after reload browser. forcus "Terminal" apps.
 
@@ -120,7 +121,7 @@ write this setting in your .vimrc
  command! -bar ArStop silent AllBrowserReloadStop
 
 Indices and tables
-==================
+===================
 
 * :ref:`genindex`
 * :ref:`modindex`

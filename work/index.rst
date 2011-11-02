@@ -10,9 +10,9 @@ browsereload-mac.vim
 Contents:
 
 .. toctree::
-   :maxdepth: 2
 
-   index
+   Description
+   Required
 
 Description
 =====================
