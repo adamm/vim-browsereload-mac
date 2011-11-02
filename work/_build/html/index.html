@@ -24,7 +24,8 @@
     <script type="text/javascript" src="static/underscore.js"></script>
     <script type="text/javascript" src="static/doctools.js"></script>
     <script type="text/javascript" src="_static/theme_extras.js"></script>
-    <link rel="top" title="browsereload-mac.vim v1.0.1 documentation" href="#" /> 
+    <link rel="top" title="browsereload-mac.vim v1.0.1 documentation" href="#" />
+    <link rel="next" title="Description" href="README.html" /> 
   </head>
   <body>
       <div class="header"><h1 class="heading"><a href="#">
@@ -35,6 +36,8 @@
       
         <p>
         <a class="uplink" href="#">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="README.html">Description</a>&#160;&#160;»
         </p>
 
       </div>
@@ -45,92 +48,14 @@
 <h1>browsereload-mac.vim<a class="headerlink" href="#browsereload-mac-vim" title="Permalink to this headline">¶</a></h1>
 <p>Contents:</p>
 <div class="toctree-wrapper compound">
-<ul class="simple">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="README.html">Description</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#required">Required</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#note">Note</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#usage">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="README.html#settings">Settings</a></li>
 </ul>
-</div>
-<div class="section" id="description">
-<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
-<p>vim plugin to reflesh your browser.
-this plugin works only MacOS.</p>
-</div>
-<div class="section" id="required">
-<h2>Required<a class="headerlink" href="#required" title="Permalink to this headline">¶</a></h2>
-<p>osascript(AppleScript command)</p>
-</div>
-<div class="section" id="installation">
-<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-python"><pre>wget https://github.com/tell-k/vim-browsereload-mac/tarball/master -O browsereload-mac-vim.tar.gz
-tar xvzf browsereload-mac-vim.tar.gz
-mv tell-k-vim-browsereload-mac-* browsereload-mac-vim
-cp -pr ./browsereload-mac-vim/plugin/browsereload-mac.vim ~/.vim/plugin/</pre>
-</div>
-<p>see also install.sh</p>
-</div>
-<div class="section" id="note">
-<h2>Note<a class="headerlink" href="#note" title="Permalink to this headline">¶</a></h2>
-<p>if you want to reload Firefox. Please change your System Preferences on MacOSX as below.</p>
-<p>check &#8220;Enable access for assistive devices&#8221;:</p>
-<div class="highlight-python"><pre>System Preferences &gt; Universal Access &gt; "Enable access for assistive devices"</pre>
-</div>
-</div>
-<div class="section" id="usage">
-<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
-<p>browser reload:</p>
-<div class="highlight-python"><pre>:ChromeReload      //reload "Google Chrome"
-:FirefoxReload     //reload "Firefox"
-:SafariReload      //reload "Safari"
-:OperaReload       //reload "Opera"
-:AllBrowserReload  //reload all browser</pre>
-</div>
-<p>start auto reload:</p>
-<div class="highlight-python"><pre>:ChromeReloadStart
-:FirefoxReloadStart
-:SafariReloadStart
-:OperaReloadStart
-:AllBrowserReloadStart</pre>
-</div>
-<p>stop auto reload:</p>
-<div class="highlight-python"><pre>:ChromeReloadStop
-:FirefoxReloadStop
-:SafariReloadStop
-:OperaReloadStop
-:AllBrowserReloadStart</pre>
-</div>
-</div>
-<div class="section" id="settings">
-<h2>Settings<a class="headerlink" href="#settings" title="Permalink to this headline">¶</a></h2>
-<p>after reload browser. forcus &#8220;Terminal&#8221; apps.</p>
-<p>if you want to change fourcus application,
-change variables &#8220;g:returnApps&#8221; to your appliation.</p>
-<div class="highlight-python"><pre>"change this variables
-let g:returnApp = "Terminal"</pre>
-</div>
-<p>if you want to stop returnApp,
-change variables &#8220;g:returnAppFlag&#8221; to 0</p>
-<div class="highlight-python"><pre>"default is 1
-let g:returnAppFlag = 1</pre>
-</div>
-<p>if you want old style commad,
-write this setting in your .vimrc</p>
-<div class="highlight-python"><pre>"reload
-command! -bar Cr silent ChromeReload
-command! -bar Fr silent FirefoxReload
-command! -bar Sr silent SafariReload
-command! -bar Or silent OperaReload
-command! -bar Ar silent AllBrowserReload
-"auto reload start
-command! -bar CrStart silent ChromeReloadStart
-command! -bar FrStart silent FirefoxReloadStart
-command! -bar SrStart silent SafariReloadStart
-command! -bar OrStart silent OperaReloadStart
-command! -bar ArStart silent AllBrowserReloadStart
-"auto reload stop
-command! -bar CrStop silent ChromeReloadStop
-command! -bar FrStop silent FirefoxReloadStop
-command! -bar SrStop silent SafariReloadStop
-command! -bar OrStop silent OperaReloadStop
-command! -bar ArStop silent AllBrowserReloadStop</pre>
-</div>
 </div>
 <div class="section" id="indices-and-tables">
 <h2>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h2>
@@ -148,6 +73,8 @@ command! -bar ArStop silent AllBrowserReloadStop</pre>
       
         <p>
         <a class="uplink" href="#">Contents</a>
+        &#160;&#160;::&#160;&#160;
+        <a href="README.html">Description</a>&#160;&#160;»
         </p>
 
       </div>
