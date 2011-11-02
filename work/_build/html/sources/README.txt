@@ -1,9 +1,12 @@
+========================
+browsereload-mac.vim
+========================
 
 Description
 =====================
 
 vim plugin to reflesh your browser. 
-this plugin works only MacOS.
+this plugin works only MacOSX.
 
 Required
 =====================

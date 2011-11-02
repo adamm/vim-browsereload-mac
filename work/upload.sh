@@ -1,5 +1,7 @@
 CURRENT_PATH=$(cd $(dirname $0) && pwd)
 cd $CURRENT_PATH
+echo "copy README.rst-----------------------------------------"
+cp -pr ../../README.rst README.rst
 echo "make docs ----------------------------------------------"
 make html
 cp -pr ./_build/html/* ../
